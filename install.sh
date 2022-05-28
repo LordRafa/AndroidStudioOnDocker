@@ -4,9 +4,9 @@ mkdir -p "$HOME/.local/share/icons/hicolor/scalable/apps/"
 mkdir -p "$HOME/.local/share/applications/"
 mkdir -p "$HOME/bin/"
 
-cp AndroidStudioOnDocker.sh "$HOME/bin/"
+cp bin/AndroidStudioOnDocker.sh "$HOME/bin/"
 ln -sf "$HOME/.onDocker/AndroidStudio/android-studio/bin/studio.svg" "$HOME/.local/share/icons/hicolor/scalable/apps/studio-docker.svg"
-cp android-studio-on-docker.desktop "$HOME/.local/share/applications/"
+cp bin/android-studio-on-docker.desktop "$HOME/.local/share/applications/"
 
 "$HOME/bin/AndroidStudioOnDocker.sh" echo "Android Studio on Docker installed."
 

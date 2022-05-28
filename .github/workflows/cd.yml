@@ -17,7 +17,7 @@ jobs:
     - name: Docker login
       run: docker login -u ${{ secrets.DOCKER_HUB_USER }} -p ${{ secrets.DOCKER_HUB_PASSWORD }}
     - name: Build
-      run: docker build -t android-studio .
+      run: docker build -t android-studio ./docker
     - name: Tags
       run: |
         docker tag android-studio ${{ secrets.DOCKER_HUB_USER }}/android-studio:${{ github.sha }}
