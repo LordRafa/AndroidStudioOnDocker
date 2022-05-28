@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Android Studio On Docker
+Comment=Android Studio running a docker
+Exec="$HOME/bin/AndroidStudioOnDocker.sh"
+Terminal=false
+Type=Application
+Icon=appimagekit-pcloud
+Categories=Development;
+TryExec="$HOME/bin/AndroidStudioOnDocker.sh"
