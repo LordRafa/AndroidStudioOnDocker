@@ -19,6 +19,7 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Setting up the user
 VOLUME "$STUDIO_HOME"
+VOLUME "$STUDIO_HOME/AndroidStudioProjects"
 RUN ln -s "$STUDIO_HOME" "/home/$USER"
 WORKDIR "/home/$USER"
 
