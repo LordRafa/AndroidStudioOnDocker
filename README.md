@@ -1,5 +1,5 @@
-# AndroidStudioDocker
-Android Studio Docker, USB and KVM with no priviledge flag
+# Android Studio On Docker
+Android Studio on Docker. Supports USB and KVM with no priviledge flag
 
 ## Attributions
 
