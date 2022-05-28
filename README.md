@@ -6,9 +6,11 @@ Android Studio on Docker. Supports USB and KVM with no privileged flag.
 
 First download the [latest](https://github.com/LordRafa/AndroidStudioOnDocker/releases/latest) release and untar it.
 
-Run the ==install.sh== inside and follow any further instruction.
+Run **./install.sh** and follow any further instruction.
 
-After the installer finish you will find Android Studio Docker on the applications list.
+After the installer finish you will find Android Studio Docker on your applications list.
+
+Enjoy it!!!
 
 # Useful links
 
