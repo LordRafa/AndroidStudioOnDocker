@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LOCAL_HOME="$HOME/.AndroidStudioOnDocker"
+LOCAL_HOME="$HOME/.onDocker/AndroidStudio"
 LOCAL_WORKSPACE="$HOME/AndroidStudioProjects"
 mkdir -p "$LOCAL_HOME" 2> /dev/null
 mkdir -p "$LOCAL_WORKSPACE" 2> /dev/null
