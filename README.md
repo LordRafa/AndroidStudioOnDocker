@@ -2,7 +2,7 @@
 
 Android Studio on Docker. Supports USB and KVM with no privileged flag.
 
-# How to use
+## How to use
 
 First download the [latest](https://github.com/LordRafa/AndroidStudioOnDocker/releases/latest) release and untar it.
 
@@ -12,9 +12,16 @@ After the installer finish you will find Android Studio Docker on your applicati
 
 Enjoy it!!!
 
-# Useful links
+## Known Issues
 
-https://hub.docker.com/r/lordrafa/android-studio
+* USB devices connected before the container was started will be not present. Workaround: Reconnect them after the container has started.
+* Android Studio restarts will close the container. Workaround: Just start it again manually.
+
+
+## Useful links
+![workflow](https://github.com/LordRafa/AndroidStudioOnDocker/actions/workflows/cd.yml/badge.svg)
+
+[Dockerhub Project Page](https://hub.docker.com/r/lordrafa/android-studio)
 
 ## Attributions
 

@@ -1,4 +1,4 @@
-name: CD for Android Studio Docker Image
+name: Android Studio Docker Build
 
 on:
   push:
