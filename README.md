@@ -14,8 +14,10 @@ Enjoy it!!!
 
 ## Known Issues
 
-* USB devices connected before the container was started will be not present. Workaround: Reconnect them after the container has started.
-* Android Studio restarts will close the container. Workaround: Just start it again manually.
+* USB devices connected before the container was started will be not present.
+    * Workaround: Reconnect them after the container has started.
+* Android Studio restarts will close the container.
+    * Workaround: Just start it again manually.
 
 
 ## Useful links
