@@ -7,7 +7,7 @@ mkdir -p "$LOCAL_WORKSPACE" 2> /dev/null
 
 CONTAINER_NAME="android-studio-on-docker"
 
-docker run --rm -it --name="$CONTAINER_NAME" \
+docker run --rm -i --name="$CONTAINER_NAME" \
 	--env=DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix \
 	-v "$LOCAL_HOME:/Studio_Home" \
 	-v "$LOCAL_WORKSPACE:/Studio_Home/AndroidStudioProjects" \
