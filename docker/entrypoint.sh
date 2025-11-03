@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ANDROID_STUDIO_URL='https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2021.2.1.15/android-studio-2021.2.1.15-linux.tar.gz'
+ANDROID_STUDIO_URL='https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2025.2.1.7/android-studio-2025.2.1.7-linux.tar.gz'
 
 export ANDROID_EMULATOR_USE_SYSTEM_LIBS=1
 export PATH="$PATH:$HOME/Android/Sdk/platform-tools/"
