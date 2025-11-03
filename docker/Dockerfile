@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM ubuntu:24.04
 
 MAINTAINER Rafael Waldo Delgado Doblas
 
@@ -23,8 +23,9 @@ VOLUME "$STUDIO_HOME/AndroidStudioProjects"
 RUN ln -s "$STUDIO_HOME" "/home/$USER"
 WORKDIR "/home/$USER"
 
-RUN groupadd -g "$GID" -r "$USER"
-RUN useradd -u "$UID" -g "$GID" -r "$USER"
+RUN groupmod -n "$USER" ubuntu
+RUN usermod -l "$USER" ubuntu
+RUN usermod -d /home/${USER} "$USER"
 RUN adduser "$USER" kvm
 RUN adduser "$USER" plugdev
 
